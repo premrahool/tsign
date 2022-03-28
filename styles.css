@@ -1,0 +1,213 @@
+/* Navbar */
+.logo{ height: 30px;}
+.btn-custom { background-color: #132C33; color: white; font-weight: 700; padding: 7px 20px;font-size: 16px;}
+.custom-nav-link {font-size: 16px;margin-left: 20px;font-weight: 500;}
+/* Headerpart */
+.header-section { background: url(./image/BG1.png); background-size: cover; background-repeat: no-repeat; background-position: bottom; height: auto; color: #132C33; margin: auto 0;}
+.container-fluid { width: 85%; }
+.header-section .heading { font-size: 40px; font-weight: 800; margin-bottom: 20px; }
+.color_orange{ color: #ff5744;}
+.btn-custom-outline {background: transparent;color: #132C33;font-weight: 700;padding: 7px 30px;font-size: 16px;border: 1px solid #132C33;}
+.header-section.heading{font-size: 35px;font-weight: 800;margin-bottom: 20px;margin-top: 20px;}
+/* aboutpart */
+.about-section { 
+ background-image: url(./image/id-detect.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #132C33;
+    color: white;
+}
+.container-fluid{
+    width: 85%;
+}
+.about-section .svg-img {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    filter: drop-shadow(-5px 5px 4px #000);
+}
+.about-section .right {
+    padding: 100px 30px;
+}
+.about-section .heading {
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Displaysection */
+.container-fluid{
+    width: 80%;
+}
+.display-section .heading {
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+.display-section{
+    position: relative;
+    z-index: 1;
+    padding: 80px 0;
+    background-color: #f7f7f7;
+}
+.display-section .tablinks {
+    border: 1px solid #132C33;
+    background-color: #132C33;
+    width: 80%;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: 500;
+    color: white;
+}
+.dashboard-img{
+    width: 80%;
+}
+.display-section .tabcontent .scorecard {
+    position: absolute;
+    width: 40%;
+    top: 100px;
+    left: 250px;
+    transition: all 1s;
+}
+
+ /* Detact Fraud Section */
+ .detact-fraud-section {
+    background-color: #D8E3E7;
+    padding: 80px 0;
+}
+.detact-fraud-section.heading{
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+.detact-fraud-section.content{
+    font-size: 18px;
+    font-weight: 250;
+}
+.detact-fraud-section .custom-card-row {
+    margin-top: 40px;
+}
+.detact-fraud-section .info-cards {
+    border: none;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 4px #6666662a);
+}
+.detact-fraud-section .icon-class {
+    font-size: 25px;
+    background-color: #ff5744;
+    border-radius: 50%;
+    padding: 15px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+/* Features */
+.features{
+    padding: 50px 0px;
+}
+.features .heading{
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+.features .feat-card {
+    border: none;
+    padding: 20px 0;
+    text-align: center;
+}
+.features .feat-card .feat-icon {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #ff5744;
+}
+.features .feat-card .feat-heading {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #132C33;
+}
+/* get-information-system */
+.get-info-section {
+    padding: 50px 0;
+    background-color: #132C33;
+    color: #fff;
+}
+.get-info-section .heading {
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+.get-info-section .content {
+    font-size: 18px;
+    font-weight: 300;
+}
+.get-info-section .inputbox {
+    padding: 15px 30px;
+    width: 100%;
+    color: rgb(160, 160, 160);
+    border-radius: 5px;
+    border: none;
+}
+.get-info-section .info-btn {
+    position: absolute;
+    right: 22px;
+    top: 7px;
+    padding: 10px 10px;
+}
+/* footer  */
+.footer {
+    background-color: #fff;
+    padding: 40px 0 15px;
+    color: #132C33;
+}
+.footer .section-head {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.footer .footer-link {
+    font-weight: 500;
+    font-size: 15px;
+    display: block;
+    color: #132C33;
+    margin-bottom: 8px;
+}
+.footer .social-icon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #132C33;
+}
+
+.footer .address-row {
+    width: 90%;
+    margin: 30px auto;
+}
+.footer .address-card {
+    background: transparent;
+    border: 1px solid #132C33;
+    padding: 35px 10px 15px;
+    position: relative;
+}
+.footer .add-icon {
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translate(-50% , -50%);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #132C33;
+}
+.footer .copyright {
+    font-weight: 600;
+}
